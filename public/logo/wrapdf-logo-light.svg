@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80">
+  <style>
+    .logo-stroke { stroke: #1a1f36; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .logo-text { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 36px; font-weight: 500; fill: #1a1f36; }
+  </style>
+  
+  <!-- Outer rounded rectangle border -->
+  <rect x="4" y="4" width="272" height="72" rx="12" ry="12" class="logo-stroke"/>
+  
+  <!-- Document icon -->
+  <g transform="translate(20, 18)">
+    <path d="M0 6 L0 38 Q0 42 4 42 L28 42 Q32 42 32 38 L32 12 L22 2 L4 2 Q0 2 0 6" class="logo-stroke"/>
+    <path d="M22 2 L22 12 L32 12" class="logo-stroke"/>
+  </g>
+  
+  <!-- Text "wrapdf" -->
+  <text x="62" y="52" class="logo-text">wrapdf</text>
+</svg>

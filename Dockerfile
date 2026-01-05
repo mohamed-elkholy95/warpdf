@@ -7,7 +7,7 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
 COPY vendor ./vendor
-RUN npm ci
+RUN npm install
 COPY . .
 
 # Build without type checking (vite build only)
@@ -30,8 +30,8 @@ RUN if [ -z "$BASE_URL" ]; then \
 # Production stage
 FROM nginxinc/nginx-unprivileged:stable-alpine-slim
 
-LABEL org.opencontainers.image.source="https://github.com/mohamedelkholy/wrapdf"
-LABEL org.opencontainers.image.url="https://github.com/mohamedelkholy/wrapdf"
+LABEL org.opencontainers.image.source="https://github.com/mohamed-elkholy95/warpdf"
+LABEL org.opencontainers.image.url="https://github.com/mohamed-elkholy95/warpdf"
 
 # global arg to local arg
 ARG BASE_URL

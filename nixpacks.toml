@@ -1,0 +1,8 @@
+# Nixpacks/Railpack configuration for Dokploy
+# Override npm ci with npm install for better compatibility
+
+[phases.install]
+cmds = ["npm install"]
+
+[phases.build]
+cmds = ["npm run build -- --mode production"]

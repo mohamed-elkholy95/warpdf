@@ -101,7 +101,7 @@ function main() {
   console.log(`📦 Docker image: wrapdf/wrapdf:${newVersion}`);
   console.log(`📦 Distribution: dist-${newVersion}.zip`);
   console.log(
-    `🏷️  GitHub release: https://github.com/mohamedelkholy/wrapdf/releases/tag/${tagName}`
+    `🏷️  GitHub release: https://github.com/mohamed-elkholy95/warpdf/releases/tag/${tagName}`
   );
   console.log(
     `💡 Download dist-${newVersion}.zip from the release page for self-hosting.`

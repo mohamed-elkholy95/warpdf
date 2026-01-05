@@ -1,4 +1,4 @@
-﻿# Deploy with Nginx
+# Deploy with Nginx
 
 Host Wrapdf on your own server using Nginx.
 
@@ -11,7 +11,7 @@ Host Wrapdf on your own server using Nginx.
 ## Step 1: Build the Project
 
 ```bash
-git clone https://github.com/mohamedelkholy/Wrapdf.git
+git clone https://github.com/mohamed-elkholy95/warpdf.git
 cd Wrapdf
 npm install
 npm run build

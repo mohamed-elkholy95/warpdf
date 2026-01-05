@@ -1,4 +1,4 @@
-﻿{
+{
     "name": "Wrapdf CLA",
     "text": [
         "Thank you for your contribution to Wrapdf!",
@@ -11,8 +11,8 @@
     ],
     "notes": {
         "purpose": "This CLA enables Wrapdf's dual licensing model (AGPL-3.0 + commercial license)",
-        "icla_url": "https://github.com/alam00000/Wrapdf/blob/main/ICLA.md",
-        "ccla_url": "https://github.com/alam00000/Wrapdf/blob/main/CCLA.md",
+        "icla_url": "https://github.com/mohamed-elkholy95/warpdf/blob/main/ICLA.md",
+        "ccla_url": "https://github.com/mohamed-elkholy95/warpdf/blob/main/CCLA.md",
         "contact": "contact@Wrapdf.com"
     }
 }

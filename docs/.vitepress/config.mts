@@ -59,7 +59,7 @@ export default defineConfig({
         },
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/mohamedelkholy/wrapdf' },
+            { icon: 'github', link: 'https://github.com/mohamed-elkholy95/warpdf' },
             { icon: 'discord', link: 'https://discord.gg/Bgq3Ay3f2w' }
         ],
 

@@ -1,4 +1,4 @@
-﻿# Contributing
+# Contributing
 
 Thank you for your interest in contributing to Wrapdf! This guide will help you get started.
 
@@ -28,19 +28,19 @@ npm run dev
 
 ```
 Wrapdf/
-├── src/
-│   ├── js/
-│   │   ├── config/       # Tool definitions
-│   │   ├── logic/        # Tool page logic
-│   │   ├── utils/        # Shared utilities
-│   │   └── ui.ts         # UI helpers
-│   ├── pages/            # Tool HTML pages
-│   └── css/              # Styles
-├── public/
-│   ├── locales/          # Translations
-│   └── pymupdf-wasm/     # WASM modules
-├── docs/                 # Documentation (VitePress)
-└── scripts/              # Build scripts
++-- src/
+�   +-- js/
+�   �   +-- config/       # Tool definitions
+�   �   +-- logic/        # Tool page logic
+�   �   +-- utils/        # Shared utilities
+�   �   +-- ui.ts         # UI helpers
+�   +-- pages/            # Tool HTML pages
+�   +-- css/              # Styles
++-- public/
+�   +-- locales/          # Translations
+�   +-- pymupdf-wasm/     # WASM modules
++-- docs/                 # Documentation (VitePress)
++-- scripts/              # Build scripts
 ```
 
 ## Adding a New Tool
@@ -112,18 +112,18 @@ Add entries to all locale files in `public/locales/`:
 
 ## Translation
 
-See [TRANSLATION.md](https://github.com/mohamedelkholy/Wrapdf/blob/main/TRANSLATION.md) for adding new languages.
+See [TRANSLATION.md](https://github.com/mohamed-elkholy95/warpdf/blob/main/TRANSLATION.md) for adding new languages.
 
 ## Contributor License Agreement
 
 Before your PR can be merged, you'll need to sign our CLA:
 
-- [Individual CLA (ICLA)](https://github.com/mohamedelkholy/Wrapdf/blob/main/ICLA.md)
-- [Corporate CLA (CCLA)](https://github.com/mohamedelkholy/Wrapdf/blob/main/CCLA.md)
+- [Individual CLA (ICLA)](https://github.com/mohamed-elkholy95/warpdf/blob/main/ICLA.md)
+- [Corporate CLA (CCLA)](https://github.com/mohamed-elkholy95/warpdf/blob/main/CCLA.md)
 
 ## Getting Help
 
-- [GitHub Issues](https://github.com/mohamedelkholy/Wrapdf/issues)
+- [GitHub Issues](https://github.com/mohamed-elkholy95/warpdf/issues)
 - [Discord Community](https://discord.gg/Bgq3Ay3f2w)
 
 ## License

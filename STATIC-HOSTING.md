@@ -1,4 +1,4 @@
-﻿# Hosting Wrapdf as a static website
+# Hosting Wrapdf as a static website
 
 As an alternative to runnning BenotPDF locally or in a Docker container, you can very easily host it as a set of static web pages.  Here are a few examples:
 
@@ -6,9 +6,9 @@ As an alternative to runnning BenotPDF locally or in a Docker container, you can
 
 ### Netlify - static deployment
 
-One of simplest ways to host Wrapdf is to create a project at [Netlify](https://www.netlify.com/) and create a static deployment.  You can accomplish this by first downloading the pre-built distribution file from our [GitHub releases](https://github.com/mohamedelkholy/Wrapdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
+One of simplest ways to host Wrapdf is to create a project at [Netlify](https://www.netlify.com/) and create a static deployment.  You can accomplish this by first downloading the pre-built distribution file from our [GitHub releases](https://github.com/mohamed-elkholy95/warpdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
 
-1. Go to [Wrapdf Releases](https://github.com/mohamedelkholy/Wrapdf/releases)
+1. Go to [Wrapdf Releases](https://github.com/mohamed-elkholy95/warpdf/releases)
 2. Download the latest `dist-{version}.zip` file
 3. Next, if you have not already done so, create a Netlify account and log in.
 4. From your Netlify projects page, add a new project and select "Deploy manually".

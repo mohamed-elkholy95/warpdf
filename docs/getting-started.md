@@ -1,16 +1,16 @@
-﻿# Getting Started
+# Getting Started
 
 Welcome to Wrapdf! This guide will help you get up and running quickly.
 
 ## What is Wrapdf?
 
-Wrapdf is a free, open-source, privacy-first PDF toolkit that runs **entirely in your browser**. Your files never leave your device—all processing happens locally using WebAssembly (WASM) technology.
+Wrapdf is a free, open-source, privacy-first PDF toolkit that runs **entirely in your browser**. Your files never leave your device�all processing happens locally using WebAssembly (WASM) technology.
 
 ## Quick Start
 
 ### Option 1: Use the Hosted Version
 
-Visit [Wrapdf.com](https://Wrapdf.com) to use Wrapdf instantly—no installation required.
+Visit [Wrapdf.com](https://Wrapdf.com) to use Wrapdf instantly�no installation required.
 
 ### Option 2: Self-Host with Docker
 
@@ -29,7 +29,7 @@ Then open `http://localhost:3000` in your browser.
 
 ```bash
 # Clone the repository
-git clone https://github.com/mohamedelkholy/Wrapdf.git
+git clone https://github.com/mohamed-elkholy95/warpdf.git
 cd Wrapdf
 
 # Install dependencies
@@ -54,9 +54,9 @@ npm run dev
 
 Wrapdf works best on modern browsers:
 
-- ✅ Chrome/Edge 90+
-- ✅ Firefox 90+
-- ✅ Safari 15+
+- ? Chrome/Edge 90+
+- ? Firefox 90+
+- ? Safari 15+
 
 ## Next Steps
 

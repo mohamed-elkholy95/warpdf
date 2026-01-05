@@ -1,4 +1,4 @@
-﻿# Deploy to Hostinger
+# Deploy to Hostinger
 
 [Hostinger](https://hostinger.com) is a popular shared hosting provider. This guide covers deploying Wrapdf to Hostinger's shared hosting.
 
@@ -10,7 +10,7 @@
 ## Step 1: Build the Project
 
 ```bash
-git clone https://github.com/mohamedelkholy/Wrapdf.git
+git clone https://github.com/mohamed-elkholy95/warpdf.git
 cd Wrapdf
 npm install
 npm run build
@@ -23,7 +23,7 @@ The built files will be in the `dist` folder.
 ### Root Domain Deployment
 
 1. Log in to your Hostinger account
-2. Go to **File Manager** → **public_html**
+2. Go to **File Manager** ? **public_html**
 3. **Delete** any existing files (backup if needed)
 4. **Upload** all contents of your local `dist` folder to `public_html`
 
@@ -38,7 +38,7 @@ BASE_URL=/pdf-tools/ npm run build
 ```
 
 2. Create the folder in Hostinger:
-   - Go to **File Manager** → **public_html**
+   - Go to **File Manager** ? **public_html**
    - Create a new folder: `pdf-tools`
    
 3. Upload all contents of `dist` to `public_html/pdf-tools/`

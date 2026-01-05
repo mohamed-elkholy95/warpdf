@@ -1,16 +1,16 @@
-﻿# Deploy to Vercel
+# Deploy to Vercel
 
 [Vercel](https://vercel.com) offers the easiest deployment experience for static sites.
 
 ## One-Click Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mohamedelkholy/Wrapdf)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mohamed-elkholy95/warpdf)
 
 ## Manual Deployment
 
 ### Step 1: Fork the Repository
 
-Fork [Wrapdf/Wrapdf](https://github.com/mohamedelkholy/Wrapdf) to your GitHub account.
+Fork [Wrapdf/Wrapdf](https://github.com/mohamed-elkholy95/warpdf) to your GitHub account.
 
 ### Step 2: Import to Vercel
 

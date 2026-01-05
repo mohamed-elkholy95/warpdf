@@ -1,4 +1,4 @@
-﻿# Contributing to Wrapdf
+# Contributing to Wrapdf
 
 First off, thank you for considering contributing to **Wrapdf**! Your help makes this project better for everyone.
 
@@ -80,7 +80,7 @@ When submitting code contributions, please use our [pull request template](.gith
 1.  **Fork the Repository**
 
     ```bash
-    git clone https://github.com/mohamedelkholy/Wrapdf.git
+    git clone https://github.com/mohamed-elkholy95/warpdf.git
     cd bento-pdf
     npm install
     ```

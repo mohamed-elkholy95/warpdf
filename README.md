@@ -3,10 +3,10 @@
 
 **Wrapdf** is a powerful, privacy-first, client-side PDF toolkit that is self hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.
 
-![Docker Pulls](https://img.shields.io/docker/pulls/Wrapdf/Wrapdf) [![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?logo=kofi&style=flat-square)](https://ko-fi.com/alio01) ![GitHub Stars](https://img.shields.io/github/stars/mohamedelkholy/Wrapdf?style=social)
-[![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4)](https://github.com/sponsors/mohamedelkholy)
+![Docker Pulls](https://img.shields.io/docker/pulls/wrapdf/wrapdf) ![GitHub Stars](https://img.shields.io/github/stars/mohamed-elkholy95/warpdf?style=social)
+[![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4)](https://github.com/sponsors/mohamed-elkholy95)
 
-![Wrapdf Tools](public/images/Wrapdf-tools.png)
+![Wrapdf Tools](public/images/wrapdf-tools.png)
 
 ---
 
@@ -36,7 +36,7 @@ Visit our [Documentation](https://Wrapdf.com/docs/) for:
 Wrapdf is dual-licensed:
 
 - **AGPL-3.0** for open-source projects where you share your full source code publicly
-- **Commercial License** for proprietary/closed-source applications - **[Get Lifetime License for $49](https://ko-fi.com/s/f32ca4cb75)** (a one-time lifetime purchase, includes all feature updates forever)
+- **Commercial License** for proprietary/closed-source applications
 
 For more details, see our [Licensing Page](https://Wrapdf.com/licensing.html)
 
@@ -44,7 +44,7 @@ For more details, see our [Licensing Page](https://Wrapdf.com/licensing.html)
 
 ## ⭐ Stargazers over time
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mohamedelkholy/Wrapdf&type=Date)](https://star-history.com/#mohamedelkholy/Wrapdf&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=mohamed-elkholy95/warpdf&type=Date)](https://star-history.com/#mohamed-elkholy95/warpdf&Date)
 
 ---
 
@@ -52,8 +52,7 @@ For more details, see our [Licensing Page](https://Wrapdf.com/licensing.html)
 
 We're incredibly grateful to all our sponsors and supporters who help keep Wrapdf free and open source!
 
-[![Sponsor me on GitHub](https://img.shields.io/badge/Become%20a%20Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge)](https://github.com/sponsors/mohamedelkholy)
-[![Buy me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?style=for-the-badge&logo=kofi)](https://ko-fi.com/alio01)
+[![Sponsor me on GitHub](https://img.shields.io/badge/Become%20a%20Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge)](https://github.com/sponsors/mohamed-elkholy95)
 
 <!-- sponsors -->
 <!-- sponsors -->
@@ -212,13 +211,13 @@ You can also watch the video on how to set it up 👉
 **Using Docker Hub:**
 
 ```bash
-docker run -p 3000:8080 Wrapdf/Wrapdf:latest
+docker run -p 3000:8080 wrapdf/wrapdf:latest
 ```
 
 **Using GitHub Container Registry:**
 
 ```bash
-docker run -p 3000:8080 ghcr.io/mohamedelkholy/Wrapdf:latest
+docker run -p 3000:8080 ghcr.io/mohamed-elkholy95/warpdf:latest
 ```
 
 Open your browser at: http://localhost:3000
@@ -227,7 +226,7 @@ This is the fastest way to try Wrapdf without setting up a development environme
 
 ### Static Hosting using Netlify, Vercel, and GitHub Pages
 
-It is very straightforward to host your own instance of Wrapdf using a static web page hosting service. Plus, services such as Netlify, Vercel, and GitHub Pages all offer a free tier for getting started.  See [Static Hosting](https://github.com/mohamedelkholy/Wrapdf/blob/main/STATIC-HOSTING.md)) for details. 
+It is very straightforward to host your own instance of Wrapdf using a static web page hosting service. Plus, services such as Netlify, Vercel, and GitHub Pages all offer a free tier for getting started.  See [Static Hosting](https://github.com/mohamed-elkholy95/warpdf/blob/main/STATIC-HOSTING.md)) for details. 
 
 ### 🏠 Self-Hosting Locally
 
@@ -235,9 +234,9 @@ Since Wrapdf is fully client-side, all processing happens in the user's browser 
 
 **Download from Releases (Recommended):**
 
-The easiest way to self-host is to download the pre-built distribution file from our [GitHub releases](https://github.com/mohamedelkholy/Wrapdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
+The easiest way to self-host is to download the pre-built distribution file from our [GitHub releases](https://github.com/mohamed-elkholy95/warpdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
 
-1. Go to [Wrapdf Releases](https://github.com/mohamedelkholy/Wrapdf/releases)
+1. Go to [Wrapdf Releases](https://github.com/mohamed-elkholy95/warpdf/releases)
 2. Download the latest `dist-{version}.zip` file
 3. Extract the zip file
 4. Serve the extracted folder with your preferred web server
@@ -262,7 +261,7 @@ If you prefer to build from source:
 
 ```bash
 # Clone the repository
-git clone https://github.com/mohamedelkholy/Wrapdf.git
+git clone https://github.com/mohamed-elkholy95/warpdf.git
 cd Wrapdf
 
 # Install dependencies
@@ -391,7 +390,7 @@ For a more robust setup with auto-restart capabilities:
 ```yaml
 services:
   Wrapdf:
-    image: Wrapdf/Wrapdf:latest
+    image: wrapdf/wrapdf:latest
     container_name: Wrapdf
     ports:
       - '3000:8080'
@@ -480,15 +479,15 @@ Wrapdf supports semantic versioning with multiple Docker tags available on both 
 
 **Docker Hub:**
 
-- **Latest**: `Wrapdf/Wrapdf:latest`
-- **Specific Version**: `Wrapdf/Wrapdf:1.0.0`
-- **Version with Prefix**: `Wrapdf/Wrapdf:v1.0.0`
+- **Latest**: `wrapdf/wrapdf:latest`
+- **Specific Version**: `wrapdf/wrapdf:1.0.0`
+- **Version with Prefix**: `wrapdf/wrapdf:v1.0.0`
 
 **GitHub Container Registry:**
 
-- **Latest**: `ghcr.io/mohamedelkholy/Wrapdf:latest`
-- **Specific Version**: `ghcr.io/mohamedelkholy/Wrapdf:1.0.0`
-- **Version with Prefix**: `ghcr.io/mohamedelkholy/Wrapdf:v1.0.0`
+- **Latest**: `ghcr.io/mohamed-elkholy95/warpdf:latest`
+- **Specific Version**: `ghcr.io/mohamed-elkholy95/warpdf:1.0.0`
+- **Version with Prefix**: `ghcr.io/mohamed-elkholy95/warpdf:v1.0.0`
 
 #### Quick Release
 
@@ -512,7 +511,7 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/mohamedelkholy/Wrapdf.git
+   git clone https://github.com/mohamed-elkholy95/warpdf.git
    cd Wrapdf
    ```
 
@@ -533,7 +532,7 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/mohamedelkholy/Wrapdf.git
+   git clone https://github.com/mohamed-elkholy95/warpdf.git
    cd Wrapdf
    ```
 
@@ -591,7 +590,7 @@ We welcome contributions from the community! Here's how you can get started:
 3.  Make your changes and commit them with a clear message.
 4.  **Open a Pull Request** and describe the changes you've made.
 
-Have an idea for a new tool or an improvement? [Open an issue](https://github.com/mohamedelkholy/Wrapdf/issues) to discuss it first.
+Have an idea for a new tool or an improvement? [Open an issue](https://github.com/mohamed-elkholy95/warpdf/issues) to discuss it first.
 
 ### 📖 Contributing to Documentation
 

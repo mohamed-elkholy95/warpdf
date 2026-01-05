@@ -1,4 +1,4 @@
-﻿# 🌍 Translation Guide for Wrapdf
+# ?? Translation Guide for Wrapdf
 
 This guide will help you add new languages or improve existing translations for Wrapdf.
 
@@ -24,9 +24,9 @@ Wrapdf uses **i18next** for internationalization (i18n). Currently supported lan
 - **Vietnamese** (`vi`)
 
 The app automatically detects the language from the URL path:
-- `/en/` → English
-- `/de/` → German
-- `/vi/` → Vietnamese
+- `/en/` ? English
+- `/de/` ? German
+- `/vi/` ? Vietnamese
 
 ---
 
@@ -71,26 +71,26 @@ Open `public/locales/fr/common.json` and translate all the values:
 {
   "nav": {
     "home": "Accueil",
-    "about": "À propos",
+    "about": "� propos",
     "contact": "Contact",
     "allTools": "Tous les outils"
   },
   "hero": {
-    "title": "Votre boîte à outils PDF gratuite et sécurisée",
+    "title": "Votre bo�te � outils PDF gratuite et s�curis�e",
     "subtitle": "Fusionnez, divisez, compressez et modifiez des PDF directement dans votre navigateur."
   }
   // ... continue translating all keys
 }
 ```
 
-⚠️ **Important**: Only translate the **values**, NOT the keys!
+?? **Important**: Only translate the **values**, NOT the keys!
 
-✅ **Correct:**
+? **Correct:**
 ```json
 "home": "Accueil"
 ```
 
-❌ **Wrong:**
+? **Wrong:**
 ```json
 "accueil": "Accueil"
 ```
@@ -108,7 +108,7 @@ export type SupportedLanguage = (typeof supportedLanguages)[number];
 export const languageNames: Record<SupportedLanguage, string> = {
     en: 'English',
     de: 'Deutsch',
-    fr: 'Français',  // ← Add this
+    fr: 'Fran�ais',  // ? Add this
 };
 ```
 
@@ -211,7 +211,7 @@ In translations:
 {
   "tools": {
     "mergePdf": {
-      "name": "PDF zusammenführen",
+      "name": "PDF zusammenf�hren",
       "subtitle": "Mehrere PDFs in eine Datei kombinieren."
     }
   }
@@ -306,14 +306,14 @@ Test in different browsers:
 
 Wrapdf is **friendly, clear, and professional**. Match this tone in your translations.
 
-✅ **Good:**
+? **Good:**
 ```json
 "hero.title": "Ihr kostenloses und sicheres PDF-Toolkit"
 ```
 
-❌ **Too formal:**
+? **Too formal:**
 ```json
-"hero.title": "Ihr gebührenfreies und gesichertes Werkzeug für PDF-Dokumente"
+"hero.title": "Ihr geb�hrenfreies und gesichertes Werkzeug f�r PDF-Dokumente"
 ```
 
 ### 2. Preserve Formatting
@@ -330,7 +330,7 @@ When translating, **keep the HTML tags intact**:
 
 ```json
 {
-  "faq.analytics.answer": "Wir schätzen Ihre Privatsphäre. Wrapdf verfolgt keine persönlichen Informationen. Wir verwenden <a href=\"https://simpleanalytics.com\" class=\"text-indigo-400 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">Simple Analytics</a> ausschließlich, um anonyme Besucherzahlen zu sehen."
+  "faq.analytics.answer": "Wir sch�tzen Ihre Privatsph�re. Wrapdf verfolgt keine pers�nlichen Informationen. Wir verwenden <a href=\"https://simpleanalytics.com\" class=\"text-indigo-400 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">Simple Analytics</a> ausschlie�lich, um anonyme Besucherzahlen zu sehen."
 }
 ```
 
@@ -361,9 +361,9 @@ Keep these as-is:
 ### 5. Technical Terms
 
 For technical terms, use commonly accepted translations in your language:
-- "Merge" → "Fusionner" (French), "Zusammenführen" (German)
-- "Split" → "Diviser" (French), "Teilen" (German)
-- "Compress" → "Compresser" (French), "Komprimieren" (German)
+- "Merge" ? "Fusionner" (French), "Zusammenf�hren" (German)
+- "Split" ? "Diviser" (French), "Teilen" (German)
+- "Compress" ? "Compresser" (French), "Komprimieren" (German)
 
 If unsure, check how other PDF tools translate these terms in your language.
 
@@ -415,11 +415,11 @@ SyntaxError: Unexpected token } in JSON at position 1234
 **Solution:**
 Make sure you added the language to both arrays in `i18n.ts`:
 ```typescript
-export const supportedLanguages = ['en', 'de', 'fr']; // ← Add here
+export const supportedLanguages = ['en', 'de', 'fr']; // ? Add here
 export const languageNames = {
     en: 'English',
     de: 'Deutsch',
-    fr: 'Français', // ← And here
+    fr: 'Fran�ais', // ? And here
 };
 ```
 
@@ -443,7 +443,7 @@ When adding a new language, make sure these files are updated:
 If you have questions or need help:
 
 1. Check existing translations in `public/locales/de/common.json` for reference
-2. Open an issue on [GitHub](https://github.com/mohamedelkholy/Wrapdf/issues)
+2. Open an issue on [GitHub](https://github.com/mohamed-elkholy95/warpdf/issues)
 3. Join our [Discord server](https://discord.gg/Bgq3Ay3f2w)
 
 ---
@@ -462,7 +462,7 @@ Once you've completed a translation:
    - Screenshots showing the translation in action
    - Confirmation that you've tested all pages
 
-Thank you for contributing to Wrapdf! 🎉
+Thank you for contributing to Wrapdf! ??
 
 ---
 
@@ -472,10 +472,10 @@ Current translation coverage:
 
 | Language | Code | Status | Maintainer |
 |----------|------|--------|------------|
-| English  | `en` | ✅ Complete | Core team |
-| German   | `de` | 🚧 In Progress | Core team |
-| Vietnamese | `vi` | ✅ Complete | Community |
-| Your Language | `??` | 🚧 In Progress | You? |
+| English  | `en` | ? Complete | Core team |
+| German   | `de` | ?? In Progress | Core team |
+| Vietnamese | `vi` | ? Complete | Community |
+| Your Language | `??` | ?? In Progress | You? |
 
 ---
 

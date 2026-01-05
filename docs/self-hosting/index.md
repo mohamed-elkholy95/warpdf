@@ -1,4 +1,4 @@
-﻿# Self-Hosting Guide
+# Self-Hosting Guide
 
 Wrapdf can be self-hosted on your own infrastructure. This guide covers various deployment options.
 
@@ -30,7 +30,7 @@ docker compose up -d
 
 ```bash
 # Clone and build
-git clone https://github.com/mohamedelkholy/Wrapdf.git
+git clone https://github.com/mohamed-elkholy95/warpdf.git
 cd Wrapdf
 npm install
 npm run build
@@ -59,7 +59,7 @@ SIMPLE_MODE=true npm run build
 docker run -p 3000:8080 Wrapdf/Wrapdf-simple:latest
 ```
 
-See [SIMPLE_MODE.md](https://github.com/mohamedelkholy/Wrapdf/blob/main/SIMPLE_MODE.md) for full details.
+See [SIMPLE_MODE.md](https://github.com/mohamed-elkholy95/warpdf/blob/main/SIMPLE_MODE.md) for full details.
 
 ### Base URL
 
@@ -92,5 +92,5 @@ Choose your platform:
 | CPU | Any modern processor |
 
 ::: tip
-Wrapdf is a static site—there's no database or backend server required!
+Wrapdf is a static site�there's no database or backend server required!
 :::

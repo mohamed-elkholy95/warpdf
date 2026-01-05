@@ -1,4 +1,4 @@
-﻿# Commercial License
+# Commercial License
 
 Wrapdf is dual-licensed under **AGPL-3.0** (for open-source projects) and a **Commercial License** (for proprietary/closed-source applications).
 
@@ -8,7 +8,7 @@ For complete licensing information, delivery details, AGPL component notices, an
 
 ## Get a Commercial License
 
-**[Get Lifetime License for $49](https://ko-fi.com/s/f32ca4cb75)** — A one-time purchase that includes all future updates forever.
+**[Get Lifetime License for $49](https://ko-fi.com/s/f32ca4cb75)** � A one-time purchase that includes all future updates forever.
 
 ## When Do You Need a Commercial License?
 
@@ -26,7 +26,7 @@ For complete licensing information, delivery details, AGPL component notices, an
 - Upon purchase, users receive a ZIP archive containing the complete Wrapdf source code and binaries.
 - The source code provided is identical to the code published in our public open-source repository.
 
-**GitHub Repository:** [github.com/mohamedelkholy/Wrapdf](https://github.com/mohamedelkholy/Wrapdf)
+**GitHub Repository:** [github.com/mohamed-elkholy95/warpdf](https://github.com/mohamed-elkholy95/warpdf)
 
 ## Important Notice on Third-Party Components
 
@@ -49,13 +49,13 @@ This software includes components licensed under the **GNU AGPL v3**, such as CP
 
 | Feature | Included |
 |---------|----------|
-| Full source code | ✅ |
-| All 50+ PDF tools | ✅ |
-| Self-hosting rights | ✅ |
-| Lifetime updates | ✅ |
-| Remove branding (Simple Mode) | ✅ |
-| Commercial support | ✅ (via email) |
-| Priority feature requests | ✅ |
+| Full source code | ? |
+| All 50+ PDF tools | ? |
+| Self-hosting rights | ? |
+| Lifetime updates | ? |
+| Remove branding (Simple Mode) | ? |
+| Commercial support | ? (via email) |
+| Priority feature requests | ? |
 
 ## FAQ
 

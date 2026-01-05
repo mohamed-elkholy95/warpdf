@@ -30,10 +30,7 @@ const init = async () => {
           <div class="container mx-auto px-4">
             <div class="flex justify-start items-center h-16">
               <div class="flex-shrink-0 flex items-center cursor-pointer" id="home-logo">
-                <img src="/images/favicon.svg" alt="Wrapdf Logo" class="h-8 w-8">
-                <span class="text-white font-bold text-xl ml-2">
-                  <a href="index.html">Wrapdf</a>
-                </span>
+                <a href="index.html"><img src="/logo/wrapdf-logo-dark.svg" alt="Wrapdf Logo" class="h-10"></a>
               </div>
             </div>
           </div>
@@ -46,7 +43,7 @@ const init = async () => {
         heroSection.style.display = 'none';
       }
 
-      const githubLink = document.querySelector('a[href*="github.com/mohamedelkholy/wrapdf"]');
+      const githubLink = document.querySelector('a[href*="github.com/mohamed-elkholy95/warpdf"]');
       if (githubLink) {
         (githubLink as HTMLElement).style.display = 'none';
       }
@@ -98,8 +95,7 @@ const init = async () => {
             <div class="flex items-center justify-between flex-wrap gap-4">
               <div>
                 <div class="flex items-center mb-2">
-                  <img src="/images/favicon.svg" alt="Wrapdf Logo" class="h-8 w-8 mr-2">
-                  <span class="text-white font-bold text-lg">Wrapdf</span>
+                  <img src="/logo/wrapdf-logo-dark.svg" alt="Wrapdf Logo" class="h-8">
                 </div>
                 <p class="text-gray-400 text-sm">
                   &copy; 2026 Wrapdf. All rights reserved.

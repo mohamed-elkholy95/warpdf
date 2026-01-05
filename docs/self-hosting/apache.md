@@ -1,4 +1,4 @@
-﻿# Deploy with Apache
+# Deploy with Apache
 
 Host Wrapdf using Apache HTTP Server.
 
@@ -11,7 +11,7 @@ Host Wrapdf using Apache HTTP Server.
 ## Step 1: Build the Project
 
 ```bash
-git clone https://github.com/mohamedelkholy/Wrapdf.git
+git clone https://github.com/mohamed-elkholy95/warpdf.git
 cd Wrapdf
 npm install
 npm run build

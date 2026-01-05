@@ -1,17 +1,17 @@
-﻿# Deploy to Netlify
+# Deploy to Netlify
 
 [Netlify](https://netlify.com) provides excellent static site hosting with a generous free tier.
 
 ## One-Click Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mohamedelkholy/Wrapdf)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mohamed-elkholy95/warpdf)
 
 ## Manual Deployment
 
 ### Step 1: Connect Repository
 
 1. Log in to [Netlify](https://app.netlify.com)
-2. Click "Add new site" → "Import an existing project"
+2. Click "Add new site" ? "Import an existing project"
 3. Connect your GitHub account
 4. Select your Wrapdf fork
 
@@ -55,7 +55,7 @@ Create `netlify.toml` in your project root:
 
 ## Environment Variables
 
-Set these in Site settings → Environment variables:
+Set these in Site settings ? Environment variables:
 
 | Variable | Description |
 |----------|-------------|
@@ -63,7 +63,7 @@ Set these in Site settings → Environment variables:
 
 ## Custom Domain
 
-1. Go to Site settings → Domain management
+1. Go to Site settings ? Domain management
 2. Click "Add custom domain"
 3. Follow DNS configuration instructions
 
@@ -89,4 +89,4 @@ Check Node version compatibility:
 
 ### Slow Initial Load
 
-Enable asset optimization in Site settings → Build & deploy → Asset optimization.
+Enable asset optimization in Site settings ? Build & deploy ? Asset optimization.

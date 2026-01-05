@@ -109,4 +109,4 @@ docker run -p 8080:80 wrapdf
 Dual-licensed under AGPL-3.0 (open source) and Commercial License.
 - Author: Mohamed Elkholy
 - Contact: contact@wrapdf.com
-- GitHub: github.com/mohamedelkholy/wrapdf
+- GitHub: github.com/mohamed-elkholy95/warpdf

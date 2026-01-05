@@ -54,5 +54,5 @@ cacheDirectories = ["node_modules/.vite"]
 # Port 8080 for compatibility with Dokploy/Railway defaults
 # -----------------------------------------------------------------------------
 [start]
-cmd = "serve dist --listen 8080 --single --no-clipboard"
+cmd = "npx serve dist --listen 8080 --single --no-clipboard"
 onlyIncludeFiles = ["dist/**/*"]

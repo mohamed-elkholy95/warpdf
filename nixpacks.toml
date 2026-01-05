@@ -1,11 +1,58 @@
-# Nixpacks/Railpack configuration for Dokploy
-# Override npm ci with npm install for better compatibility
+# =============================================================================
+# Nixpacks Configuration for Wrapdf
+# A privacy-first PDF toolkit - Static Site Deployment
+# =============================================================================
 
+# -----------------------------------------------------------------------------
+# Providers & Build Image
+# -----------------------------------------------------------------------------
+providers = ["node"]
+
+# -----------------------------------------------------------------------------
+# Environment Variables
+# Available to all phases during build and runtime
+# -----------------------------------------------------------------------------
+[variables]
+NODE_ENV = "production"
+CI = "true"
+# Vite optimizations
+VITE_BUILD_SOURCEMAP = "false"
+
+# -----------------------------------------------------------------------------
+# Setup Phase
+# Install system-level dependencies and runtime packages
+# -----------------------------------------------------------------------------
+[phases.setup]
+nixPkgs = ["nodejs_20", "npm-9_x"]
+
+# -----------------------------------------------------------------------------
+# Install Phase
+# Install project dependencies
+# Using npm install instead of npm ci for better compatibility
+# -----------------------------------------------------------------------------
 [phases.install]
-cmds = ["npm install"]
+dependsOn = ["setup"]
+cmds = ["npm install --prefer-offline --no-audit --progress=false"]
+cacheDirectories = ["node_modules", ".npm"]
 
+# -----------------------------------------------------------------------------
+# Build Phase
+# Build the static site with Vite
+# Install serve globally for static file serving
+# -----------------------------------------------------------------------------
 [phases.build]
-cmds = ["npm run build -- --mode production", "npm install -g serve"]
+dependsOn = ["install"]
+cmds = [
+    "npm run build -- --mode production",
+    "npm install -g serve@latest"
+]
+cacheDirectories = ["node_modules/.vite"]
 
+# -----------------------------------------------------------------------------
+# Start Configuration
+# Serve the static files using serve package
+# Port 8080 for compatibility with Dokploy/Railway defaults
+# -----------------------------------------------------------------------------
 [start]
-cmd = "serve dist -l 8080"
+cmd = "serve dist --listen 8080 --single --no-clipboard"
+onlyIncludeFiles = ["dist/**/*"]

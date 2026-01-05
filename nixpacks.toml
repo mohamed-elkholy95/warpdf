@@ -5,4 +5,7 @@
 cmds = ["npm install"]
 
 [phases.build]
-cmds = ["npm run build -- --mode production"]
+cmds = ["npm run build -- --mode production", "npm install -g serve"]
+
+[start]
+cmd = "serve dist -l 8080"

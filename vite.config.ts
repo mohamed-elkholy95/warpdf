@@ -62,6 +62,16 @@ function pagesRewritePlugin(): Plugin {
               req.url = '/404.html';
             }
           }
+        } else if (!url.includes('.') && url !== '/' && !url.startsWith('/src/') && !url.startsWith('/@') && !url.startsWith('/node_modules/')) {
+          // Handle URLs without .html extension (e.g., /merge-pdf -> /src/pages/merge-pdf.html)
+          const pageName = url.slice(1) + '.html';
+          const srcPagePath = resolve(__dirname, 'src/pages', pageName);
+          const rootPagePath = resolve(__dirname, pageName);
+          if (fs.existsSync(srcPagePath)) {
+            req.url = `/src/pages/${pageName}`;
+          } else if (fs.existsSync(rootPagePath)) {
+            req.url = `/${pageName}`;
+          }
         }
         next();
       });

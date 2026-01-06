@@ -17,6 +17,8 @@ NODE_ENV = "production"
 CI = "true"
 # Vite optimizations
 VITE_BUILD_SOURCEMAP = "false"
+# Ensure BASE_URL is root path, not domain name
+BASE_URL = "/"
 
 # -----------------------------------------------------------------------------
 # Setup Phase

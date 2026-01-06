@@ -52,7 +52,9 @@ cacheDirectories = ["node_modules/.vite"]
 # Start Configuration
 # Serve the static files using serve package
 # Port 8080 for compatibility with Dokploy/Railway defaults
+# NOTE: Do NOT use --single flag - this is a Multi-Page Application (MPA),
+# not a SPA. Each tool has its own HTML file that must be served directly.
 # -----------------------------------------------------------------------------
 [start]
-cmd = "npx serve dist --listen 8080 --single --no-clipboard"
+cmd = "npx serve dist --listen 8080 --no-clipboard"
 onlyIncludeFiles = ["dist/**/*"]

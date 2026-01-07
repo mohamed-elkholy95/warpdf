@@ -7,7 +7,8 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
 COPY vendor ./vendor
-RUN npm install
+ENV HUSKY=0
+RUN npm ci
 COPY . .
 
 # Build without type checking (vite build only)
